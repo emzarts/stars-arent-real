@@ -1,0 +1,12 @@
+{
+  "name": "stars-arent-real",
+  "displayName": "stars-arent-real",
+  "expo": {
+    "name": "stars-arent-real",
+    "slug": "stars-arent-real",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
