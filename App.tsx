@@ -1,10 +1,15 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import ConstellationSketcher from 'react-constellation-sketcher';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
+      <ConstellationSketcher width="500"
+                                  height="500"
+                                  slideshow={true}
+            />
     </View>
   );
 }
