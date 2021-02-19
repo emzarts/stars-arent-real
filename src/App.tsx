@@ -1,6 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+// @ts-ignore
+import ConstellationSketcher from "react-constellation-sketcher";
+import React from "react";
+import logo from "./logo.svg";
 
 function App() {
   return (
@@ -10,6 +13,7 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <ConstellationSketcher width="500" height="500" slideshow={true} />
         <a
           className="App-link"
           href="https://reactjs.org"
