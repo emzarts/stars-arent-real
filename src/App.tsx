@@ -6,6 +6,8 @@ import React from "react";
 import logo from "./logo.svg";
 
 const App: React.FC = () => {
+  const string = "Learn React";
+
   return (
     <div className="App">
       <header className="App-header">
