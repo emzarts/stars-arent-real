@@ -6,7 +6,7 @@ import React from "react";
 import logo from "./logo.svg";
 
 const App: React.FC = () => {
-  const string = "Learn React";
+  const learnReactString = "Learn React";
 
   return (
     <div className="App">
@@ -22,7 +22,7 @@ const App: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {learnReactString}
         </a>
       </header>
     </div>
