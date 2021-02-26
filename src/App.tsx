@@ -1,4 +1,5 @@
 import "./App.css";
+import "./starmap.ts";
 
 // @ts-ignore
 import ConstellationSketcher from "react-constellation-sketcher";
