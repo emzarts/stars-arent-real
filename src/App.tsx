@@ -3,8 +3,8 @@ import "./App.css";
 // @ts-ignore
 import ConstellationSketcher from "react-constellation-sketcher";
 import React from "react";
-import logo from "./logo.svg";
 import StarMap from "./StarMap";
+import logo from "./logo.svg";
 
 const App: React.FC = () => {
   return (
