@@ -21,6 +21,7 @@ const StarMap = () => {
         "console.log('REEE', data);" +
         "}," +
         "});" +
+        "sky.addCustomObject(5.5,1.6441374, { radius: '5', clickData: 'Orion' });" +
         "sky.drawSky();";
 
       document.body.appendChild(skySphere);
