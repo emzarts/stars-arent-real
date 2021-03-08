@@ -6,6 +6,7 @@ import { Route, Router, Switch } from "react-router-dom";
 import ConstellationSketcher from "react-constellation-sketcher";
 import React from "react";
 import { createBrowserHistory } from "history";
+import StarMap from "./StarMap";
 import logo from "./logo.svg";
 
 const history = createBrowserHistory();
@@ -22,7 +23,7 @@ const App: React.FC = () => {
           component={() => (
             <div className="App">
               <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
+                <StarMap></StarMap>
                 <p>
                   Edit <code>src/App.tsx</code> and save to reload.
                 </p>
