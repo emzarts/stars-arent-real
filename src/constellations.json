@@ -1,0 +1,354 @@
+[
+    {
+        "latinName": "Andromeda",
+        "englishName": "Princess of Ethiopia"
+    },
+    {
+        "latinName": "Antlia",
+        "englishName": "Air pump"
+    },
+    {
+        "latinName": "Apus",
+        "englishName": "Bird of Paradise"
+    },
+    {
+        "latinName": "Aquarius",
+        "englishName": "Water bearer"
+    },
+    {
+        "latinName": "Aquila",
+        "englishName": "Eagle"
+    },
+    {
+        "latinName": "Ara",
+        "englishName": "Altar"
+    },
+    {
+        "latinName": "Aries",
+        "englishName": "Ram"
+    },
+    {
+        "latinName": "Auriga",
+        "englishName": "Charioteer"
+    },
+    {
+        "latinName": "Bootes",
+        "englishName": "Herdsman"
+    },
+    {
+         "latinName": "Caelum",
+         "englishName": "Graving tool"
+    },
+    {
+        "latinName": "Camelopardalis",
+        "englishName": "Giraffe"
+    },
+    {
+        "latinName": "Cancer",
+        "englishName":	"Crab"
+    },
+    {
+        "latinName": "Canes Venatici",
+        "englishName": "Hunting dogs"
+    },
+    {
+        "latinName": "Canis Major",
+        "englishName": "Big dog"
+    },
+    {
+        "latinName": "Canis Minor",
+        "englishName": "Little dog"
+    },
+    {
+        "latinName": "Capricornus",
+        "englishName": "Sea goat"
+    },
+    {
+        "latinName": "Carina",
+        "englishName": "Keel of Argonauts' ship"
+    },
+    {
+        "latinName": "Cassiopeia",
+        "englishName": "Queen of Ethiopia"
+    },
+    {
+        "latinName": "Centaurus",
+        "englishName": "Centaur"
+    },
+    {
+        "latinName": "Cepheus",
+        "englishName": "King of Ethiopia"
+    },
+    {
+        "latinName": "Cetus",
+        "englishName": "Sea monster (whale)"
+    },
+    {
+        "latinName": "Chamaeleon",
+        "englishName": "Chameleon"
+    },
+    {
+        "latinName": "Circinus",
+        "englishName": "Compasses"
+    },
+    {
+        "latinName": "Columba",
+        "englishName": "Dove"
+    },
+    {
+        "latinName": "Coma Berenices",
+        "englishName": "Berenice's hair"
+    },
+    {
+        "latinName": "Corona Australis",
+        "englishName": "Southern crown"
+    },
+    {
+        "latinName": "Corona Borealis",
+        "englishName": "Northern crown"
+    },
+    {
+        "latinName": "Corvus",
+        "englishName": "Crow"
+    },
+    {
+        "latinName": "Crater",
+        "englishName": "Cup"
+    },
+    {
+        "latinName": "Crux",
+        "englishName": "Cross (southern)"
+    },
+    {
+        "latinName": "Cygnus",
+        "englishName": "Swan"
+    },
+    {
+        "latinName": "Delphinus",
+        "englishName": "Porpoise"
+    },
+    {
+        "latinName": "Dorado",
+        "englishName": "Swordfish"
+    },
+    {
+        "latinName": "Draco",
+        "englishName": "Dragon"
+    },
+    {
+        "latinName": "Equuleus",
+        "englishName": "Little horse"
+    },
+    {
+        "latinName": "Eridanus",
+        "englishName": "River"
+    },
+    {
+        "latinName": "Fornax",
+        "englishName": "Furnace"
+    },
+    {
+        "latinName": "Gemini",
+        "englishName": "Twins"
+    },
+    {
+        "latinName": "Grus",
+        "englishName": "Crane"
+    },
+    {
+        "latinName": "Hercules",
+        "englishName": "Hercules, son of Zeus"
+    },
+    {
+        "latinName": "Horologium",
+        "englishName": "Clock"
+    },
+    {
+        "latinName": "Hydra",
+        "englishName": "Sea serpent"
+    },
+    {
+        "latinName": "Hydrus",
+        "englishName": "Water snake"
+    },
+    {
+        "latinName": "Indus",
+        "englishName": "Indian"
+    },
+    {
+        "latinName": "Lacerta",
+        "englishName": "Lizard"
+    },
+    {
+        "latinName": "Leo",
+        "englishName": "Lion"
+    },
+    {
+        "latinName": "Leo Minor",
+        "englishName": "Little lion"
+    },
+    {
+        "latinName": "Lepus",
+        "englishName": "Hare"
+    },
+    {
+        "latinName": "Libra",
+        "englishName": "Balance"
+    },
+    {
+        "latinName": "Lupus",
+        "englishName": "Wolf"
+    },
+    {
+        "latinName": "Lynx",
+        "englishName": "Lynx"
+    },
+    {
+        "latinName": "Lyra",
+        "englishName": "Lyre or harp"
+    },
+    {
+        "latinName": "Mensa",
+        "englishName": "Table mountain"
+    },
+    {
+        "latinName": "Microscopium",
+        "englishName": "Microscope"
+    },
+    {
+        "latinName": "Monoceros",
+        "englishName": "Unicorn"
+    },
+    {
+        "latinName": "Musca",
+        "englishName": "Fly"
+    },
+    {
+        "latinName": "Norma",
+        "englishName": "Carpenter's Level"
+    },
+    {
+        "latinName": "Octans",
+        "englishName": "Octant"
+    },
+    {
+        "latinName": "Ophiuchus",
+        "englishName": "Holder of serpent"
+    },
+    {
+        "latinName": "Orion",
+        "englishName": "Orion, the hunter"
+    },
+    {
+        "latinName": "Pavo",
+        "englishName": "Peacock"
+    },
+    {
+        "latinName": "Pegasus",
+        "englishName": "Pegasus, the winged horse"
+    },
+    {
+        "latinName": "Perseus",
+        "englishName": "Perseus, hero who saved Andromeda"
+    },
+    {
+        "latinName": "Phoenix",
+        "englishName": "Phoenix"
+    },
+    {
+        "latinName": "Pictor",
+        "englishName": "Easel"
+    },
+    {
+        "latinName": "Pisces",
+        "englishName": "Fishes"
+    },
+    {
+        "latinName": "Piscis Austrinus",
+        "englishName": "Southern fish"
+    },
+    {
+        "latinName": "Puppis",
+        "englishName": "Stern of the Argonauts' ship"
+    },
+    {
+        "latinName": "Pyxis",
+        "englishName": "Compass on the Argonauts' ship"
+    },
+    {
+        "latinName": "Reticulum",
+        "englishName": "Net"
+    },
+    {
+        "latinName": "Sagitta",
+        "englishName": "Arrow"
+    },
+    {
+        "latinName": "Sagittarius",
+        "englishName": "Archer"
+    },
+    {
+        "latinName": "Scorpius",
+        "englishName": "Scorpion"
+    },
+    {
+        "latinName": "Sculptor",
+        "englishName": "Sculptor's tools"
+    },
+    {
+        "latinName": "Scutum",
+        "englishName": "Shield"
+    },
+    {
+        "latinName": "Serpens",
+        "englishName": "Serpent"
+    },
+    {
+        "latinName": "Sextans",
+        "englishName": "Sextant"
+    },
+    {
+        "latinName": "Taurus",
+        "englishName": "Bull"
+    },
+    {
+        "latinName": "Telescopium",
+        "englishName": "Telescope"
+    },
+    {
+        "latinName": "Triangulum",
+        "englishName": "Triangle"
+    },
+    {
+        "latinName": "Triangulum Australe",
+        "englishName": "Southern triangle"
+    },
+    {
+        "latinName": "Tucana",
+        "englishName": "Toucan"
+    },
+    {
+        "latinName": "Ursa Major",
+        "englishName": "Big bear"
+    },
+    {
+        "latinName": "Ursa Minor",
+        "englishName": "Little bear"
+    },
+    {
+        "latinName": "Vela",
+        "englishName": "Sail of the Argonauts' ship"
+    },
+    {
+        "latinName": "Virgo",
+        "englishName": "Virgin"
+    },
+    {
+        "latinName": "Volans",
+        "englishName": "Flying fish"
+    },
+    {
+        "latinName": "Vulpecula",
+        "englishName": "Fox"
+    }
+]
