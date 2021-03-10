@@ -7,6 +7,7 @@ import ConstellationSketcher from "react-constellation-sketcher";
 import React from "react";
 import { createBrowserHistory } from "history";
 import StarMap from "./StarMap";
+import MultipleChoice from "./MultipleChoice";
 import logo from "./logo.svg";
 
 const history = createBrowserHistory();
