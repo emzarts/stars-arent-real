@@ -1,13 +1,18 @@
+import "./constellation-list.css";
 import constellations from "./constellations.json";
 
 const listList = constellations.map((names) => {
-  return <div>{names.englishName}</div>;
+  return (
+    <div>
+      <button className="Button">{names.englishName}</button>
+    </div>
+  );
 });
 
 const ConstellationList = () => {
   return (
     <div className="ConstellationList">
-      <h1>WORDS</h1>
+      <div className="PageName">Constellation List</div>
       <div>{listList}</div>
     </div>
   );
