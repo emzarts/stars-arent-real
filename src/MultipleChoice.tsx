@@ -1,7 +1,6 @@
-import { render } from "@testing-library/react";
-import React from "react";
 import Quiz from "react-quiz-component";
 import QuizSource from "./QuizSource";
+import React from "react";
 
 const MultipleChoice = () => {
   return <Quiz quiz={QuizSource} />;

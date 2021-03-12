@@ -1,14 +1,18 @@
 import "./App.css";
+
 import { Route, Router, Switch } from "react-router-dom";
-import { createBrowserHistory } from "history";
+
 // @ts-ignore
 import ConstellationSketcher from "react-constellation-sketcher";
 import LearnStarMap from "./pages/LearnStarMap";
 import React from "react";
+import { createBrowserHistory } from "history";
+import { exampleSearch } from "./utils/wiki-test";
 
 const history = createBrowserHistory();
 
 const App: React.FC = () => {
+  exampleSearch();
   return (
     <Router history={history}>
       <Switch>

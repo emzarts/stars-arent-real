@@ -1,4 +1,5 @@
 import "./learnPage.css";
+
 import StarMap from "../StarMap";
 
 const LearnStarMap = () => {
