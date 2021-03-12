@@ -1,0 +1,10 @@
+.learnPage {
+    background-color: #3C4263;
+    height: 100%;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

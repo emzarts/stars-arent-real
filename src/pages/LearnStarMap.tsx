@@ -1,9 +1,9 @@
-import React from "react";
+import "./learnPage.css";
 import StarMap from "../StarMap";
 
 const LearnStarMap = () => {
   return (
-    <div className="learStarMapPage page">
+    <div className="learStarMapPage learnPage">
       <StarMap />
     </div>
   );
