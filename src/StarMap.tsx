@@ -22,6 +22,10 @@ const StarMap = () => {
         "}," +
         "});" +
         "sky.addCustomObject(5.5,1.6441374, { radius: '5', clickData: 'Orion' });" +
+        "sky.addCustomObject(430,433, { radius: '5', clickData: 'Cepheus' });" +
+        "sky.addCustomObject(400,433, { radius: '5', clickData: 'Ursa Minor' });" +
+        "sky.addCustomObject(409,423, { radius: '5', clickData: 'Cassiopeia' });" +
+        "sky.addCustomObject(48,30, { radius: '5', clickData: 'Pegasus' });" +
         "sky.drawSky();";
 
       document.body.appendChild(skySphere);
