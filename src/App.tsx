@@ -2,9 +2,9 @@ import "./App.css";
 
 import { Route, Router, Switch } from "react-router-dom";
 
-// @ts-ignore
-import ConstellationSketcher from "react-constellation-sketcher";
+import LearnMultipleChoice from "./pages/LearnMultipleChoice";
 import LearnStarMap from "./pages/LearnStarMap";
+import MainPage from "./pages/MainPage";
 import React from "react";
 import { createBrowserHistory } from "history";
 import { exampleSearch } from "./utils/wiki-test";
@@ -16,24 +16,14 @@ const App: React.FC = () => {
   return (
     <Router history={history}>
       <Switch>
-        <Route
-          exact
-          path={"/"}
-          component={() => (
-            <div className="App">
-              <header className="App-header">
-                <h1>Welcome to Stars Aren't Real</h1>
-                <ConstellationSketcher
-                  width="500"
-                  height="500"
-                  slideshow={true}
-                />
-              </header>
-            </div>
-          )}
-        />
+        <Route exact path={"/"}>
+          <MainPage />
+        </Route>
         <Route path="/learn-map">
           <LearnStarMap />
+        </Route>
+        <Route path="/learn-multiple-choice">
+          <LearnMultipleChoice />
         </Route>
       </Switch>
     </Router>
