@@ -1,5 +1,5 @@
 import "./App.css";
-import { Route, Router, Switch } from "react-router-dom";
+import { Link, Route, Router, Switch } from "react-router-dom";
 import { createBrowserHistory } from "history";
 // @ts-ignore
 import ConstellationSketcher from "react-constellation-sketcher";
@@ -30,15 +30,14 @@ const App: React.FC = () => {
                 </p>
                 <button>Constellation List</button>
                 <button>Image Matching</button>
-                <button>Map Search</button>
+                <button>
+                  <Link to="/learn-map">Map Search</Link>
+                </button>
                 <button>Learning Statistics</button>
               </header>
             </div>
           )}
         />
-        <Route path="/learn-map">
-          <LearnStarMap />
-        </Route>
       </Switch>
     </Router>
   );
