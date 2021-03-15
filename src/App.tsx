@@ -18,12 +18,20 @@ const App: React.FC = () => {
           component={() => (
             <div className="App">
               <header className="App-header">
-                <h1>Welcome to Stars Aren't Real</h1>
-                <ConstellationSketcher
-                  width="500"
-                  height="500"
-                  slideshow={true}
-                />
+                <div>
+                  <h3>Welcome to</h3>
+                  <h1>Stars Aren't Real</h1>
+                </div>
+                <p>Learn more about the night sky.</p>
+                <ConstellationSketcher slideshow={true} />
+                <p>
+                  Choose one of the learning options below or view your progress
+                  in the statistics section.
+                </p>
+                <button>Constellation List</button>
+                <button>Image Matching</button>
+                <button>Map Search</button>
+                <button>Learning Statistics</button>
               </header>
             </div>
           )}
