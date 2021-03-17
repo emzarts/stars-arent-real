@@ -1,12 +1,13 @@
 import "./ConstellationList.css";
+
 import { Link } from "react-router-dom";
 import constellations from "../utils/constellations.json";
 
 const listList = constellations.map((names) => {
   return (
-    <div key={names.englishName}>
-      <Link to={`/${names.englishName}`}>
-        <button className="Button">{names.englishName}</button>
+    <div key={names.latinName}>
+      <Link to={`/${names.latinName}`}>
+        <button className="Button">{names.latinName}</button>
       </Link>
     </div>
   );
