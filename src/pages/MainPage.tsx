@@ -14,6 +14,7 @@ const MainPage: React.FC = () => {
         <Link to="/">Home</Link>
         <Link to="/learn-map">Learn Constellation Map</Link>
         <Link to="/learn-multiple-choice">Learn Multiple Choice</Link>
+        <Link to="/list">Constellation List</Link>
       </header>
     </div>
   );

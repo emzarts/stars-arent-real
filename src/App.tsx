@@ -2,8 +2,10 @@ import "./App.css";
 
 import { Route, Router, Switch } from "react-router-dom";
 
+import ConstellationInfo from "./pages/ConstellationInfo";
 import LearnMultipleChoice from "./pages/LearnMultipleChoice";
 import LearnStarMap from "./pages/LearnStarMap";
+import ListPage from "./pages/ConstellationList";
 import MainPage from "./pages/MainPage";
 import React from "react";
 import { exampleSearch } from "./utils/wiki-test";
@@ -20,6 +22,8 @@ const App: React.FC = () => {
           path={"/learn-multiple-choice"}
           component={LearnMultipleChoice}
         />
+        <Route path={"/list"} component={ListPage} />
+        <Route path={"/:name"} component={ConstellationInfo} />
       </Switch>
     </Router>
   );
