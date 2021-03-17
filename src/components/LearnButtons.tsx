@@ -1,6 +1,8 @@
 import "./learnPage.css";
 
-const LearnButtons = () => {
+import React from "react";
+
+const LearnButtons: React.FC = () => {
   return <div className="learnButtons"></div>;
 };
 

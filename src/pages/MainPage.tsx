@@ -1,9 +1,11 @@
 import "./learnPage.css";
+
 // @ts-ignore
 import ConstellationSketcher from "react-constellation-sketcher";
 import { Link } from "react-router-dom";
+import React from "react";
 
-const MainPage = () => {
+const MainPage: React.FC = () => {
   return (
     <div className="MainPage learnPage">
       <header className="App-header">
