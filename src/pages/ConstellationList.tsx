@@ -1,4 +1,4 @@
-import "./ConstellationList.css";
+import "./learnPage.css";
 
 import { Link } from "react-router-dom";
 import constellations from "../utils/constellations.json";
@@ -7,7 +7,7 @@ const listList = constellations.map((names) => {
   return (
     <div key={names.latinName}>
       <Link to={`/${names.latinName}`}>
-        <button className="Button">{names.latinName}</button>
+        <button>{names.latinName}</button>
       </Link>
     </div>
   );
@@ -15,7 +15,7 @@ const listList = constellations.map((names) => {
 
 const ConstellationList: React.FC = () => {
   return (
-    <div className="ConstellationList">
+    <div className="ConstellationList learnPage">
       <div className="PageName">Constellation List</div>
       <div>{listList}</div>
     </div>

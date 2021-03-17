@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 .learnPage {
     background-color: #3C4263;
     width: 100vw;
@@ -12,3 +14,34 @@
     overflow-y: scroll;
 }
 
+.ConstellationList {
+    display: block;
+}
+
+.PageName {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+button {
+    align-items: center;
+    padding: 16px 32px;
+    margin-bottom: 10px;
+    width: 311px;
+
+    background: #FFFFFF;
+    border-radius: 100px;
+    border-width: 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
