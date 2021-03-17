@@ -3,7 +3,7 @@ import constellations from "./constellations.json";
 
 const listList = constellations.map((names) => {
   return (
-    <div>
+    <div key={names.englishName}>
       <button className="Button">{names.englishName}</button>
     </div>
   );
