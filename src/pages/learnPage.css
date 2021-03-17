@@ -54,8 +54,9 @@ button {
     color: rgb(144, 146, 166);
   }
 
-  link:link, link:focus, link:hover, link:visited, link:active {
-    text-decoration: none;
+  .page-link {
+    color: inherit;
+    text-decoration: inherit;
   }
   
   p {

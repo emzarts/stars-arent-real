@@ -21,10 +21,14 @@ const MainPage: React.FC = () => {
         </p>
         <button>Constellation List</button>
         <button>
-          <Link to="/learn-multiple-choice">Learn Multiple Choice</Link>
+          <Link to="/learn-multiple-choice" className="text-link">
+            Learn Multiple Choice
+          </Link>
         </button>
         <button>
-          <Link to="/learn-map">Learn Constellation Map</Link>
+          <Link to="/learn-map" className="text-link">
+            Learn Constellation Map
+          </Link>
         </button>
         <button>Learning Statistics</button>
       </header>
