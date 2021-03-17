@@ -6,25 +6,20 @@ import LearnMultipleChoice from "./pages/LearnMultipleChoice";
 import LearnStarMap from "./pages/LearnStarMap";
 import MainPage from "./pages/MainPage";
 import React from "react";
-import { createBrowserHistory } from "history";
 import { exampleSearch } from "./utils/wiki-test";
-
-const history = createBrowserHistory();
+import history from "./utils/history";
 
 const App: React.FC = () => {
   exampleSearch();
   return (
     <Router history={history}>
       <Switch>
-        <Route exact path={"/"}>
-          <MainPage />
-        </Route>
-        <Route path="/learn-map">
-          <LearnStarMap />
-        </Route>
-        <Route path="/learn-multiple-choice">
-          <LearnMultipleChoice />
-        </Route>
+        <Route exact path={"/"} component={MainPage} />
+        <Route path={"/learn-map"} component={LearnStarMap} />
+        <Route
+          path={"/learn-multiple-choice"}
+          component={LearnMultipleChoice}
+        />
       </Switch>
     </Router>
   );
