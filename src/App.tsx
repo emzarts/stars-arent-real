@@ -8,11 +8,9 @@ import LearnStarMap from "./pages/LearnStarMap";
 import ListPage from "./pages/ConstellationList";
 import MainPage from "./pages/MainPage";
 import React from "react";
-import { exampleSearch } from "./utils/wiki-test";
 import history from "./utils/history";
 
 const App: React.FC = () => {
-  exampleSearch();
   return (
     <Router history={history}>
       <Switch>
