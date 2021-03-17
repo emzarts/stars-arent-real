@@ -7,7 +7,7 @@ const listList = constellations.map((names) => {
   return (
     <div key={names.latinName}>
       <Link to={`/${names.latinName}`}>
-        <button>{names.latinName}</button>
+        <button className="listButton">{names.latinName}</button>
       </Link>
     </div>
   );
@@ -15,8 +15,8 @@ const listList = constellations.map((names) => {
 
 const ConstellationList: React.FC = () => {
   return (
-    <div className="ConstellationList learnPage">
-      <div className="PageName">Constellation List</div>
+    <div className="constellationList learnPage">
+      <div className="pageName">Constellation List</div>
       <div>{listList}</div>
     </div>
   );
