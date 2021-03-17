@@ -18,17 +18,15 @@ const MainPage: React.FC = () => {
           Choose one of the learning options below or view your progress in the
           statistics section.
         </p>
-        <button>Constellation List</button>
-        <button>
-          <Link to="/learn-multiple-choice" className="page-link">
-            Multiple Choice Quiz
-          </Link>
-        </button>
-        <button>
-          <Link to="/learn-map" className="page-link">
-            Constellation Map
-          </Link>
-        </button>
+        <Link to="/list" className="page-link">
+          <button>Constellation List</button>
+        </Link>
+        <Link to="/learn-multiple-choice" className="page-link">
+          <button>Multiple Choice Quiz</button>
+        </Link>
+        <Link to="/learn-map" className="page-link">
+          <button>Constellation Map</button>
+        </Link>
         <button>Learning Statistics</button>
       </header>
     </div>
