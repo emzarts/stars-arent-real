@@ -2,7 +2,7 @@ import "./ConstellationInfo.css";
 
 import React from "react";
 import { useParams } from "react-router-dom";
-import { useWikiInfo } from "../utils/wiki";
+import { useWikiInfo } from "../../utils/wiki";
 
 const ConstellationInfo: React.FC = () => {
   const { name } = useParams<Record<string, string>>();

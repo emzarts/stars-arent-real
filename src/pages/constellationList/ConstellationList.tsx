@@ -1,7 +1,7 @@
-import "./learnPage.css";
+import "../learnPage.css";
 
 import { Link } from "react-router-dom";
-import constellations from "../utils/constellations.json";
+import constellations from "../../utils/constellations.json";
 
 const listList = constellations.map((names) => {
   return (
