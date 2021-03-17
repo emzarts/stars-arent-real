@@ -14,7 +14,7 @@ button {
     font-weight: 600;
     margin-block: 0.4em;
     padding: 3% 6%;
-    width: 70%;
+    width: 65vw;
   }
   
   button:focus, button:hover {
