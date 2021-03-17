@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 .ConstellationList {
-    background: rgba(94, 99, 129, 0.88);
+    background-color: #3C4263;
+    text-align: center;
 }
 
 .PageName {
