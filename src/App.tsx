@@ -1,43 +1,31 @@
 import "./App.css";
+
 import { Link, Route, Router, Switch } from "react-router-dom";
-import { createBrowserHistory } from "history";
 // @ts-ignore
 import ConstellationSketcher from "react-constellation-sketcher";
+import LearnMultipleChoice from "./pages/LearnMultipleChoice";
 import LearnStarMap from "./pages/LearnStarMap";
+import MainPage from "./pages/MainPage";
 import React from "react";
+import { createBrowserHistory } from "history";
+import { exampleSearch } from "./utils/wiki-test";
 
 const history = createBrowserHistory();
 
 const App: React.FC = () => {
+  exampleSearch();
   return (
     <Router history={history}>
       <Switch>
-        <Route
-          exact
-          path={"/"}
-          component={() => (
-            <div className="App">
-              <header className="App-header">
-                <div>
-                  <h3>Welcome to</h3>
-                  <h1>Stars Aren't Real</h1>
-                </div>
-                <p>Learn more about the night sky.</p>
-                <ConstellationSketcher slideshow={true} />
-                <p>
-                  Choose one of the learning options below or view your progress
-                  in the statistics section.
-                </p>
-                <button>Constellation List</button>
-                <button>Image Matching</button>
-                <button>
-                  <Link to="/learn-map">Map Search</Link>
-                </button>
-                <button>Learning Statistics</button>
-              </header>
-            </div>
-          )}
-        />
+        <Route exact path={"/"}>
+          <MainPage />
+        </Route>
+        <Route path="/learn-map">
+          <LearnStarMap />
+        </Route>
+        <Route path="/learn-multiple-choice">
+          <LearnMultipleChoice />
+        </Route>
       </Switch>
     </Router>
   );
