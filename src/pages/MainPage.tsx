@@ -1,5 +1,4 @@
-import "./learnPage.css";
-
+import "./mainPage.css";
 // @ts-ignore
 import ConstellationSketcher from "react-constellation-sketcher";
 import { Link } from "react-router-dom";
@@ -7,7 +6,7 @@ import React from "react";
 
 const MainPage: React.FC = () => {
   return (
-    <div className="MainPage learnPage">
+    <div className="mainPage learnPage">
       <header className="App-header">
         <div>
           <h3>Welcome to</h3>
@@ -21,13 +20,13 @@ const MainPage: React.FC = () => {
         </p>
         <button>Constellation List</button>
         <button>
-          <Link to="/learn-multiple-choice" className="text-link">
-            Learn Multiple Choice
+          <Link to="/learn-multiple-choice" className="page-link">
+            Multiple Choice Quiz
           </Link>
         </button>
         <button>
-          <Link to="/learn-map" className="text-link">
-            Learn Constellation Map
+          <Link to="/learn-map" className="page-link">
+            Constellation Map
           </Link>
         </button>
         <button>Learning Statistics</button>
