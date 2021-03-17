@@ -1,7 +1,7 @@
 import "./learnPage.css";
 
 import React from "react";
-import StarMap from "../StarMap";
+import StarMap from "../components/StarMap";
 
 const LearnStarMap: React.FC = () => {
   return (

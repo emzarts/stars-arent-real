@@ -1,14 +1,13 @@
 import "./App.css";
 
 import { Route, Router, Switch } from "react-router-dom";
-// @ts-ignore
+import ConstellationMap from "./pages/constellationMap/ConstellationMap";
 import LearnMultipleChoice from "./pages/LearnMultipleChoice";
 import LearnStarMap from "./pages/LearnStarMap";
 import MainPage from "./pages/MainPage";
 import React from "react";
 import { exampleSearch } from "./utils/wiki-test";
 import history from "./utils/history";
-import ConstellationMap from "./pages/ConstellationMap";
 
 const App: React.FC = () => {
   exampleSearch();

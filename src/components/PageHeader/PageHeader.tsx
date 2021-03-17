@@ -4,7 +4,13 @@ import React from "react";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import history from "../../utils/history";
 
-const PageHeader: React.FC = () => {
+type PageHeaderProps = {
+  pageName?: string;
+};
+
+const PageHeader: React.FC<PageHeaderProps> = ({
+  pageName,
+}: PageHeaderProps) => {
   return (
     <div className="pageHeader">
       <div className="headerSection">
@@ -16,7 +22,7 @@ const PageHeader: React.FC = () => {
           <FontAwesomeIcon icon={faChevronLeft} size="2x" />
         </button>
       </div>
-      <div className="headerSection"></div>
+      <div className="headerSection pageName">{pageName}</div>
       <div className="headerSection"></div>
     </div>
   );

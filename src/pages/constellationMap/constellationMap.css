@@ -3,8 +3,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.constellationMap .pageContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
+
 .starMap {
     width: 100%;
 }
