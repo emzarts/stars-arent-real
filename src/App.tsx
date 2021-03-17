@@ -8,6 +8,7 @@ import MainPage from "./pages/MainPage";
 import React from "react";
 import { exampleSearch } from "./utils/wiki-test";
 import history from "./utils/history";
+import ConstellationMap from "./pages/ConstellationMap";
 
 const App: React.FC = () => {
   exampleSearch();
@@ -20,6 +21,7 @@ const App: React.FC = () => {
           path={"/learn-multiple-choice"}
           component={LearnMultipleChoice}
         />
+        <Route path="/constellation-map" component={ConstellationMap} />
       </Switch>
     </Router>
   );

@@ -7,20 +7,25 @@ declare class SkySphere {
   drawSky(): void;
 }
 
-const StarMap: React.FC = () => {
+type MapProps = {
+  displayConstInfo: (name: string) => void;
+};
+
+const StarMap: React.FC<MapProps> = ({ displayConstInfo }: MapProps) => {
   useEffect(() => {
     const sky = new SkySphere("sky", {
       width: 800,
       height: 400,
       customOnClick: function (data: any) {
         console.log("REEE", data);
+        displayConstInfo(data.name);
       },
     });
-    sky.addCustomObject(5.5, 1.6441374, { radius: "5", clickData: "Orion" });
-    sky.addCustomObject(430, 433, { radius: "5", clickData: "Cepheus" });
-    sky.addCustomObject(400, 433, { radius: "5", clickData: "Ursa Minor" });
-    sky.addCustomObject(409, 423, { radius: "5", clickData: "Cassiopeia" });
-    sky.addCustomObject(48, 30, { radius: "5", clickData: "Pegasus" });
+    sky.addCustomObject(5.5, 1.6441374, { radius: "5", name: "Orion" });
+    sky.addCustomObject(430, 433, { radius: "5", name: "Cepheus" });
+    sky.addCustomObject(400, 433, { radius: "5", name: "Ursa Minor" });
+    sky.addCustomObject(409, 423, { radius: "5", name: "Cassiopeia" });
+    sky.addCustomObject(48, 30, { radius: "5", name: "Pegasus" });
     sky.drawSky();
   }, []);
 

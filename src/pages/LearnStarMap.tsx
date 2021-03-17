@@ -6,7 +6,8 @@ import StarMap from "../StarMap";
 const LearnStarMap: React.FC = () => {
   return (
     <div className="learStarMapPage learnPage">
-      <StarMap />
+      {/* <StarMap /> */}
+      <h1>HOLD</h1>
     </div>
   );
 };
