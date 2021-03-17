@@ -14,10 +14,9 @@ type MapProps = {
 const StarMap: React.FC<MapProps> = ({ displayConstInfo }: MapProps) => {
   useEffect(() => {
     const sky = new SkySphere("sky", {
-      width: 800,
-      height: 400,
+      width: 0,
+      height: 0,
       customOnClick: function (data: any) {
-        console.log("REEE", data);
         displayConstInfo(data.name);
       },
     });
@@ -30,7 +29,7 @@ const StarMap: React.FC<MapProps> = ({ displayConstInfo }: MapProps) => {
   }, []);
 
   return (
-    <div className="StarMap">
+    <div className="starMap">
       <canvas id="sky"></canvas>
     </div>
   );

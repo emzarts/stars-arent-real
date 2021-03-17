@@ -1,0 +1,17 @@
+.pageHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pageHeader button {
+    padding: 10px 25px 10px 30px;
+    display: flex;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+
+.pageHeader button:hover {
+    cursor: pointer;
+    text-shadow: 30px 3px rgba(0,0,0,.4);
+}
