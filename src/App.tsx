@@ -1,7 +1,7 @@
 import "./App.css";
 
 import { Route, Router, Switch } from "react-router-dom";
-
+// @ts-ignore
 import LearnMultipleChoice from "./pages/LearnMultipleChoice";
 import LearnStarMap from "./pages/LearnStarMap";
 import MainPage from "./pages/MainPage";

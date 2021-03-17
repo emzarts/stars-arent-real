@@ -1,0 +1,56 @@
+.mainPage {
+    display: block;
+}
+
+button {
+    align-items: center;
+    background: rgba(94, 99, 129, 0.88);
+    border: none;
+    border-radius: 100px;  
+    color: #ececf0;
+    flex-direction: column;
+    font-family: Inter;
+    font-size: 100%;
+    font-weight: 600;
+    margin-block: 0.4em;
+    padding: 3% 6%;
+    width: 70%;
+  }
+  
+  button:focus, button:hover {
+    background: #ececf0;
+    color: rgba(94, 99, 129, 0.88);
+    outline: none;
+  }
+  
+  canvas {
+    width: 60%;
+    margin-block: 0em;
+  }
+  
+  header {
+    font-family: Inter;
+    padding: 5%;
+  }
+  
+  h1, h3 {
+    letter-spacing: 0%;
+    margin-block: 0em;
+    text-align: center;  
+  }
+  
+  h3 {
+    font-size: 100%;
+    color: rgb(144, 146, 166);
+  }
+
+  .page-link {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  
+  p {
+    font-weight: 100;
+    margin-block: 0.6em;
+    width: 65%;
+  }
