@@ -2,12 +2,12 @@ import "./App.css";
 
 import { Route, Router, Switch } from "react-router-dom";
 
-import ConstellationInfo from "./pages/ConstellationInfo";
+import ConstellationInfo from "./pages/constellationInfo/ConstellationInfo";
 import ConstellationMap from "./pages/constellationMap/ConstellationMap";
 import LearnMultipleChoice from "./pages/LearnMultipleChoice";
 import LearnStarMap from "./pages/LearnStarMap";
-import ListPage from "./pages/ConstellationList";
-import MainPage from "./pages/MainPage";
+import ListPage from "./pages/constellationList/ConstellationList";
+import MainPage from "./pages/mainPage/MainPage";
 import React from "react";
 import history from "./utils/history";
 
