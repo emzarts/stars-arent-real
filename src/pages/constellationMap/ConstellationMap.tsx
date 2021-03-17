@@ -1,13 +1,15 @@
 import "./constellationMap.css";
+
 import React, { useState } from "react";
+
 import PageHeader from "../../components/PageHeader/PageHeader";
 import StarMap from "../../components/StarMap";
 
 const ConstellationMap: React.FC = () => {
   const [constellation, setConstellation] = useState("");
-  const displayConstellationInfo = (name: string) => {
+  const displayConstellationInfo = React.useCallback((name: string) => {
     setConstellation(name);
-  };
+  }, []);
   return (
     <div className="constellationMap">
       <PageHeader pageName="Constellation Map" />

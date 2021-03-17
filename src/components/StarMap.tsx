@@ -26,7 +26,7 @@ const StarMap: React.FC<MapProps> = ({ displayConstInfo }: MapProps) => {
     sky.addCustomObject(409, 423, { radius: "5", name: "Cassiopeia" });
     sky.addCustomObject(48, 30, { radius: "5", name: "Pegasus" });
     sky.drawSky();
-  }, []);
+  }, [displayConstInfo]);
 
   return (
     <div className="starMap">
