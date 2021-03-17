@@ -1,9 +1,9 @@
 import "./App.css";
 
 import { Route, Router, Switch } from "react-router-dom";
-// @ts-ignore
 
 import ConstellationInfo from "./pages/ConstellationInfo";
+import ConstellationMap from "./pages/constellationMap/ConstellationMap";
 import LearnMultipleChoice from "./pages/LearnMultipleChoice";
 import LearnStarMap from "./pages/LearnStarMap";
 import ListPage from "./pages/ConstellationList";
@@ -21,6 +21,7 @@ const App: React.FC = () => {
           path={"/learn-multiple-choice"}
           component={LearnMultipleChoice}
         />
+        <Route path="/constellation-map" component={ConstellationMap} />
         <Route path={"/list"} component={ListPage} />
         <Route path={"/:name"} component={ConstellationInfo} />
       </Switch>

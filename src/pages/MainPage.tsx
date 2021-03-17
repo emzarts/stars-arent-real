@@ -24,7 +24,7 @@ const MainPage: React.FC = () => {
         <Link to="/learn-multiple-choice" className="page-link">
           <button>Multiple Choice Quiz</button>
         </Link>
-        <Link to="/learn-map" className="page-link">
+        <Link to="/constellation-map" className="page-link">
           <button>Constellation Map</button>
         </Link>
         <button>Learning Statistics</button>

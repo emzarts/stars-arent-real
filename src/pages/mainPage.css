@@ -19,20 +19,24 @@ button {
   
   button:focus, button:hover {
     background: #ececf0;
-    color: rgba(94, 99, 129, 0.88);
+    color: rgba(216, 220, 245, 0.88);
     outline: none;
   }
   
-  canvas {
+  /* canvas {
     width: 60%;
     margin-block: 0em;
-  }
+  } */
   
   header {
     font-family: Inter;
     padding: 5%;
   }
   
+  h1, h2, p {
+    color: white;
+  }
+
   h1, h3 {
     letter-spacing: 0%;
     margin-block: 0em;
