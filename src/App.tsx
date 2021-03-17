@@ -1,8 +1,7 @@
 import "./App.css";
 
-import { Link, Route, Router, Switch } from "react-router-dom";
+import { Route, Router, Switch } from "react-router-dom";
 // @ts-ignore
-import ConstellationSketcher from "react-constellation-sketcher";
 import LearnMultipleChoice from "./pages/LearnMultipleChoice";
 import LearnStarMap from "./pages/LearnStarMap";
 import MainPage from "./pages/MainPage";
