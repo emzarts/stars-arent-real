@@ -1,5 +1,6 @@
 import "./ConstellationInfo.css";
 
+import PageHeader from "../../components/PageHeader/PageHeader";
 import React from "react";
 import { useParams } from "react-router-dom";
 import { useWikiInfo } from "../../utils/wiki";
@@ -12,12 +13,12 @@ const ConstellationInfo: React.FC = () => {
 
   return (
     <div className="learnPage">
-      <div className="PageName">About: {name}</div>
+      <PageHeader pageName={`About: ${name}`} />
       <div className="PageContent">{summary}</div>
       {info ? (
         <>
           <br />
-          <div className="BrightestStarName">
+          <div className="PageContent BrightestStar">
             Brightest Star Name: {info.general.brighteststarname}
           </div>
         </>

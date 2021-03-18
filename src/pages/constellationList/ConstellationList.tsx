@@ -1,6 +1,7 @@
 import "../learnPage.css";
 
 import { Link } from "react-router-dom";
+import PageHeader from "../../components/PageHeader/PageHeader";
 import constellations from "../../utils/constellations.json";
 
 const listList = constellations.map((names) => {
@@ -16,7 +17,7 @@ const listList = constellations.map((names) => {
 const ConstellationList: React.FC = () => {
   return (
     <div className="constellationList learnPage">
-      <div className="pageName">Constellation List</div>
+      <PageHeader pageName={"Constellation List"} />
       <div>{listList}</div>
     </div>
   );
