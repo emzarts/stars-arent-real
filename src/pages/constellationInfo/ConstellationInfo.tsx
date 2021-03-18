@@ -2,12 +2,12 @@ import "./ConstellationInfo.css";
 
 import React from "react";
 import { useParams } from "react-router-dom";
-import ConstellationInfoModal from "./constellationInfoModal/ConstellationInfoContainer";
+import ConstellationInfoContainer from "./constellationInfoContainer/ConstellationInfoContainer";
 
 const ConstellationInfo: React.FC = () => {
   const { name } = useParams<Record<string, string>>();
 
-  return <ConstellationInfoModal name={name} />;
+  return <ConstellationInfoContainer name={name} />;
 };
 
 export default ConstellationInfo;

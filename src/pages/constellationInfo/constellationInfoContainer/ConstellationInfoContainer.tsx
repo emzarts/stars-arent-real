@@ -7,7 +7,7 @@ type ConstellationInfoProps = {
   name: string;
 };
 
-const ConstellationInfoModal: React.FC<ConstellationInfoProps> = ({
+const ConstellationInfoContainer: React.FC<ConstellationInfoProps> = ({
   name,
 }: ConstellationInfoProps) => {
   const { summary, info } = useWikiInfo(name);
@@ -29,4 +29,4 @@ const ConstellationInfoModal: React.FC<ConstellationInfoProps> = ({
   );
 };
 
-export default ConstellationInfoModal;
+export default ConstellationInfoContainer;

@@ -1,7 +1,7 @@
 import "./constellationMap.css";
 
 import React, { useState } from "react";
-import ConstellationInfoModal from "../constellationInfo/constellationInfoModal/ConstellationInfoContainer";
+import ConstellationInfoContainer from "../constellationInfo/constellationInfoContainer/ConstellationInfoContainer";
 import PageHeader from "../../components/PageHeader/PageHeader";
 import StarMap from "../../components/StarMap";
 
@@ -13,7 +13,9 @@ const ConstellationMap: React.FC = () => {
   const constellationInfo = (
     <div>
       <h2>This constellation is {constellation}</h2>
-      <ConstellationInfoModal name={constellation}></ConstellationInfoModal>
+      <ConstellationInfoContainer
+        name={constellation}
+      ></ConstellationInfoContainer>
     </div>
   );
   return (
