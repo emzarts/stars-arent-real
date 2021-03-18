@@ -4,7 +4,7 @@
 
 button {
     align-items: center;
-    background: rgba(94, 99, 129, 0.88);
+    background: #5a5f7d;
     border: none;
     border-radius: 100px;  
     color: #ececf0;
@@ -14,12 +14,12 @@ button {
     font-weight: 600;
     margin-block: 0.4em;
     padding: 3% 6%;
-    width: 65vw;
+    width: 55vw;
   }
   
   button:focus, button:hover {
     background: #ececf0;
-    color: rgba(216, 220, 245, 0.88);
+    color: #5a5f7d;
     outline: none;
   }
   
