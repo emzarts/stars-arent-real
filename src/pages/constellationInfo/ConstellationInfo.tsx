@@ -1,4 +1,3 @@
-import "./ConstellationInfo.css";
 import ConstellationInfoContainer from "./constellationInfoContainer/ConstellationInfoContainer";
 import React from "react";
 import { useParams } from "react-router-dom";
