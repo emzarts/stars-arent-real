@@ -2,7 +2,14 @@
     background-color: #FFFFFF;
     width: 60vw;
     padding: 2.5vw;
-    border-radius: 50px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.constellationInfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .BrightestStarName {

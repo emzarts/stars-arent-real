@@ -18,6 +18,7 @@ const ConstellationMap: React.FC = () => {
     <div>
       <Modal
         closeModal={closeConstellation}
+        title={constellation}
         contents={
           <ConstellationInfoContainer
             name={constellation}
