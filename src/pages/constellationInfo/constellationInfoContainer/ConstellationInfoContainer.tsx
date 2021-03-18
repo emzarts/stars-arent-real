@@ -1,5 +1,6 @@
-import "../ConstellationInfo.css";
+import "./ConstellationInfoContainer.css";
 
+import PageHeader from "../../../components/PageHeader/PageHeader";
 import React from "react";
 import { useWikiInfo } from "../../../utils/wiki";
 
@@ -15,12 +16,12 @@ const ConstellationInfoContainer: React.FC<ConstellationInfoProps> = ({
 
   return (
     <div className="learnPage">
-      <div className="PageName">About: {name}</div>
+      <PageHeader pageName={`About: ${name}`} />
       <div className="PageContent">{summary}</div>
       {info ? (
         <>
           <br />
-          <div className="BrightestStarName">
+          <div className="PageContent BrightestStar">
             Brightest Star Name: {info.general.brighteststarname}
           </div>
         </>
