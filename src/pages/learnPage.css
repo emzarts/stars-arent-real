@@ -4,6 +4,31 @@
     text-align: center;
 }
 
+.quizPage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.quizPage p {
+    display: block;
+    width: 100%;
+}
+
+.loader {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.quizPage .loadSpinner {
+    width: 100px;
+    font-size: calc(100px + 2vmin);
+}
+
 .constellationList {
     display: block;
 }

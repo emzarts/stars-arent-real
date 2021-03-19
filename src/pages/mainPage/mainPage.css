@@ -15,6 +15,7 @@ button {
     margin-block: 0.4em;
     padding: 3% 6%;
     width: 55vw;
+    max-width: 500px;
   }
   
   button:focus, button:hover {
@@ -51,6 +52,7 @@ button {
   .page-link {
     color: inherit;
     text-decoration: inherit;
+    max-width: 500px;
   }
   
   p {

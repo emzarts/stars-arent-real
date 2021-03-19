@@ -27,7 +27,7 @@ const MainPage: React.FC = () => {
         <Link to="/constellation-map" className="page-link">
           <button>Constellation Map</button>
         </Link>
-        <button>Learning Statistics</button>
+        {/* <button>Learning Statistics</button> */}
       </header>
     </div>
   );
