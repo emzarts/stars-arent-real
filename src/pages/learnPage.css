@@ -1,16 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 .learnPage {
-    width: 100vw;
-
     text-align: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    overflow-x: hidden;
-    overflow-y: scroll;
 }
 
 .constellationList {
