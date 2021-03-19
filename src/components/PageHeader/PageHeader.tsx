@@ -19,7 +19,7 @@ const PageHeader: React.FC<PageHeaderProps> = ({
             history.goBack();
           }}
         >
-          <FontAwesomeIcon icon={faChevronLeft} size="2x" />
+          <FontAwesomeIcon icon={faChevronLeft} />
         </button>
       </div>
       <div className="headerSection pageName">{pageName}</div>

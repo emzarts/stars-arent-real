@@ -2,6 +2,7 @@ import "./constellationMap.css";
 
 import React, { useState } from "react";
 import ConstellationInfoContainer from "../constellationInfo/constellationInfoContainer/ConstellationInfoContainer";
+import Modal from "../../components/Modal/Modal";
 import PageHeader from "../../components/PageHeader/PageHeader";
 import StarMap from "../../components/StarMap";
 
@@ -10,12 +11,20 @@ const ConstellationMap: React.FC = () => {
   const displayConstellationInfo = React.useCallback((name: string) => {
     setConstellation(name);
   }, []);
+  const closeConstellation = () => {
+    setConstellation("");
+  };
   const constellationInfo = (
     <div>
-      <h2>This constellation is {constellation}</h2>
-      <ConstellationInfoContainer
-        name={constellation}
-      ></ConstellationInfoContainer>
+      <Modal
+        closeModal={closeConstellation}
+        title={constellation}
+        contents={
+          <ConstellationInfoContainer
+            name={constellation}
+          ></ConstellationInfoContainer>
+        }
+      />
     </div>
   );
   return (
