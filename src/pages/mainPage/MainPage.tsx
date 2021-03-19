@@ -13,7 +13,7 @@ const MainPage: React.FC = () => {
           <h1>Stars Aren't Real</h1>
         </div>
         <p>Learn more about the night sky.</p>
-        <ConstellationSketcher slideshow={true} />
+        <ConstellationSketcher className="mainPhoto" slideshow={true} />
         <p>
           Choose one of the learning options below or view your progress in the
           statistics section.
@@ -27,7 +27,7 @@ const MainPage: React.FC = () => {
         <Link to="/constellation-map" className="page-link">
           <button>Constellation Map</button>
         </Link>
-        <button>Learning Statistics</button>
+        {/* <button>Learning Statistics</button> */}
       </header>
     </div>
   );
