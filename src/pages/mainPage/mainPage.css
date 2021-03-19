@@ -24,10 +24,10 @@ button {
     outline: none;
   }
   
-  /* canvas {
+  .mainPhoto {
     width: 60%;
     margin-block: 0em;
-  } */
+  }
   
   header {
     font-family: Inter;
