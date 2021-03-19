@@ -65,9 +65,7 @@ const getUniqueConstellationNames = (num_names: number, excluded_name = "") => {
       !name_list.includes(constellation_name) &&
       constellation_name != excluded_name
     ) {
-      console.log(constellation_name);
       name_list.push(constellation_name);
-      console.log(name_list);
     }
   }
 
@@ -75,7 +73,6 @@ const getUniqueConstellationNames = (num_names: number, excluded_name = "") => {
 };
 
 const getPicture = async (cname: string) => {
-  console.log("querying for " + cname);
   const query_url =
     "http://www.strudel.org.uk/lookUP/json/?name=" + cname.replace(" ", "+");
 
